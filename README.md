@@ -53,4 +53,6 @@ to comment out a line, you simply put "--" before it, so to comment out the ejec
       
 If you commend that out for some reason, then you must change the first elseif after that to just if.
 
+Interrupts:
 
+This script is set up to handle interrupts automatically based on whether or not you have bullets. If you do it will use pointblank to interrupt, if you don't then it will use kneecap. The catch is that you have to add the lines for the mobs windup attacks yourself. You will see the script called Interrupts in triggers, just add the lines into that script and you'll be off and running.
